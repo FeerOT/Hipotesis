@@ -5,17 +5,39 @@ En este contexto, una discográfica se enfrenta al emocionante desafío de lanza
 
 La discográfica planteó una serie de hipótesis sobre qué hace que una canción sea más escuchada. Estas hipótesis incluyen:
 
-Las canciones con un mayor BPM (Beats Por Minuto) tienen más éxito en términos de cantidad de streams en Spotify.
-Las canciones más populares en el ranking de Spotify también tienen un comportamiento similar en otras plataformas como Deezer.
-La presencia de una canción en un mayor número de playlists se relaciona con un mayor número de streams.
-Los artistas con un mayor número de canciones en Spotify tienen más streams totales.
-Las características de la música influyen en el éxito en términos de cantidad de streams en Spotify.
-Deberás validar (refutar o confirmar) estas hipótesis mediante el análisis de los datos, y proporcionar recomendaciones estratégicas basadas en tus hallazgos. En última instancia, el objetivo es que la discográfica y el nuevo artista puedan tomar decisiones informadas que aumenten sus posibilidades de conseguir el “éxito”.
+- Las canciones con un mayor BPM (Beats Por Minuto) tienen más éxito en términos de cantidad de streams en Spotify.
+- Las canciones más populares en el ranking de Spotify también tienen un comportamiento similar en otras plataformas como Deezer.
+- La presencia de una canción en un mayor número de playlists se relaciona con un mayor número de streams.
+- Los artistas con un mayor número de canciones en Spotify tienen más streams totales.
+- Las características de la música influyen en el éxito en términos de cantidad de streams en Spotify.
 
-Alcance del proyecto
+Se debe validar (refutar o confirmar) estas hipótesis mediante el análisis de los datos, y proporcionar recomendaciones estratégicas basadas en tus hallazgos. En última instancia, el objetivo es que la discográfica y el nuevo artista puedan tomar decisiones informadas que aumenten sus posibilidades de conseguir el “éxito”.
 
-Este proyecto está dividido en 3 alcances, cada uno marcado con un hito que determina lo que aprenderás y lo que debes lograr para considerar que lo alcanzaste.
+# Base de Datos
+Se cuenta con una base de datos con las siguientes caracteristicas:
+- 3 tablas llamadas Track in Competition, Track in Spotify y Track Technical Info.
+- Volumen de 953 lineas.
+- Cuentan con 30 variables en total.
 
-El hito 1 es el que consideramos siempre como indispensable para poder evaluar el proyecto. Los demás son opcionales y están para permitirte profundizar en alguna habilidad o para adelantar un poco de alguna otra que se cubrirá también en proyectos futuros. Entonces, podrías completar solamente el hito 1 o los hitos 1 y 2 o los hitos 1 y 3 o los hitos 1, 2 y 3.
+# Proceso de Limpieza y Preparación
+Durante el proceso de limpieza se eliminaron las lineas con valores nulos en variables importantes como track_id.
+Para los datos nulos o fuera de alcance estos fueron eliminados, sujetos al limite de no borrar mas de un 1% del total de datos.
+Se dejaron las variables de texto sin caracteres especiales o numeros donde no corresponda.
 
-La decisión de cuántos hitos hacer debe ser de común acuerdo entre ambas personas de la dupla. Sin embargo, esto no impide que cualquiera pueda volver a este proyecto de forma individual para completar cualquier otro hito que no hayan hecho en conjunto y sea necesario para la ruta que va a seguir.
+# Análisis Exploratorio 
+A continuación se muestra el analisis exploratorio de los datos.
+![image](https://github.com/FeerOT/Hipotesis/assets/150949526/4a64d2eb-9465-417a-8606-409f6d64ef9a)
+
+# Técnicas de Análisis Utilizadas
+Durante el proceso de analisis se utilizaron las siguientes tecnicas: 
+- Aplicar Segmentación
+- Validación de Hipotesis
+- Pruebas de Significancia 
+- Regresión Lineal
+- Correlación
+
+# Resultados y Conclusiones
+Los principales resultados y conclusiones obtenidos fueron:
+- Se validaron o rechazaron las hipotesis planteadas por la discográfica
+- Se establecieron recomendaciones para la discografica basadas en la validacion de las hipotesis
+
