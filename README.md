@@ -41,8 +41,6 @@ Durante el proceso de analisis se utilizaron las siguientes tecnicas:
 - Pruebas de Significancia 
 - Regresión Lineal
 - Correlación
-  
-https://console.cloud.google.com/bigquery?project=proyecto-hipotesis-403915&ws=!1m0
 
 # Resultados y Conclusiones
 
@@ -50,3 +48,6 @@ Los principales resultados y conclusiones obtenidos fueron:
 - Se validaron o rechazaron las hipotesis planteadas por la discográfica
 - Se establecieron recomendaciones para la discografica basadas en la validacion de las hipotesis
 
+# Herramientas 
+
+https://console.cloud.google.com/bigquery?project=proyecto-hipotesis-403915&ws=!1m0
